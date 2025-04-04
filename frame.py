@@ -19,7 +19,7 @@ class Ui_MainWindow(object):
         # Title Text
         self.titleLabel = QtWidgets.QLabel(self.centralwidget)
         self.titleLabel.setAlignment(QtCore.Qt.AlignCenter)
-        self.titleLabel.setText("Demo nhóm 5")
+        self.titleLabel.setText("Demo nhóm 3")
         self.titleLabel.setStyleSheet("""
             font-size: 32px;
             font-weight: bold;
@@ -180,7 +180,7 @@ class Ui_MainWindow(object):
         self.N1.setText(str(self.rsa.N))
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle("Demo nhóm 5")
+        MainWindow.setWindowTitle("Demo nhóm 3")
 
 if __name__ == "__main__":
     import sys
